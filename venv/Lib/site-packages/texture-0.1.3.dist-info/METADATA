@@ -1,0 +1,61 @@
+Metadata-Version: 2.0
+Name: texture
+Version: 0.1.3
+Summary: Micro-engine for creating text-based adventures
+Home-page: https://github.com/rmed/texture
+Author: Rafael Medina García
+Author-email: rafamedgar@gmail.com
+License: MIT
+Keywords: texture adventure game text based old
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Dist: six (==1.10.0)
+
+texture
+=======
+
+    (...) I rejected those answers. Instead, I chose something
+    different. I chose the (im)possible. I chose... texture
+
+|PyPI version|
+
+texture is a micro-engine for creating text-based adventures.
+
+Features
+--------
+
+-  Scenario based architecture
+-  Global game state
+-  Some utilities
+-  Main game loop (including command input)
+
+That's it. This is only a (pretty simple) tool, and you are the artist.
+Want your game to calculate x digits of *pi*? Well, go for it!
+
+Documentation
+-------------
+
+Documentation is available in the ``docs/`` directory. In order to build
+it, use:
+
+::
+
+    $ mkdocs build
+
+In addition, you can find the documentation online at
+http://texture.readthedocs.org/en/latest/.
+
+.. |PyPI version| image:: https://img.shields.io/pypi/v/texture.svg
+   :target: https://pypi.python.org/pypi/texture
+
+
